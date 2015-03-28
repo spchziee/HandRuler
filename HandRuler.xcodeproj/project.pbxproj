@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93C5A141ABCFBA100A80789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C5A131ABCFBA100A80789 /* main.m */; };
+		C93C5A171ABCFBA100A80789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C5A161ABCFBA100A80789 /* AppDelegate.m */; };
+		C93C5A1A1ABCFBA100A80789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C5A191ABCFBA100A80789 /* ViewController.m */; };
+		C93C5A1D1ABCFBA100A80789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C93C5A1B1ABCFBA100A80789 /* Main.storyboard */; };
+		C93C5A1F1ABCFBA100A80789 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C93C5A1E1ABCFBA100A80789 /* Images.xcassets */; };
+		C93C5A221ABCFBA100A80789 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93C5A201ABCFBA100A80789 /* LaunchScreen.xib */; };
+		C93C5A2E1ABCFBA100A80789 /* HandRulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C5A2D1ABCFBA100A80789 /* HandRulerTests.m */; };
+		C93C5A391ABCFFB600A80789 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = C93C5A381ABCFFB600A80789 /* DeviceInfo.m */; };
+		C93C5A3C1ABD09CE00A80789 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93C5A3B1ABD09CE00A80789 /* CoreGraphics.framework */; };
+		C93C5A411ABD686F00A80789 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C93C5A401ABD686F00A80789 /* AppIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C93C5A281ABCFBA100A80789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C93C5A061ABCFBA100A80789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93C5A0D1ABCFBA100A80789;
+			remoteInfo = HandRuler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C93C5A0E1ABCFBA100A80789 /* HandRuler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HandRuler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93C5A121ABCFBA100A80789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93C5A131ABCFBA100A80789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C93C5A151ABCFBA100A80789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C93C5A161ABCFBA100A80789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C93C5A181ABCFBA100A80789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C93C5A191ABCFBA100A80789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C93C5A1C1ABCFBA100A80789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C93C5A1E1ABCFBA100A80789 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C93C5A211ABCFBA100A80789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C93C5A271ABCFBA100A80789 /* HandRulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandRulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93C5A2C1ABCFBA100A80789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C93C5A2D1ABCFBA100A80789 /* HandRulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HandRulerTests.m; sourceTree = "<group>"; };
+		C93C5A381ABCFFB600A80789 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceInfo.m; path = ../DeviceInfo.m; sourceTree = "<group>"; };
+		C93C5A3A1ABCFFD000A80789 /* DeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DeviceInfo.h; path = ../DeviceInfo.h; sourceTree = "<group>"; };
+		C93C5A3B1ABD09CE00A80789 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C93C5A3D1ABD1BE400A80789 /* UtilityMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UtilityMacro.h; path = ../UtilityMacro.h; sourceTree = "<group>"; };
+		C93C5A401ABD686F00A80789 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93C5A0B1ABCFBA100A80789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93C5A3C1ABD09CE00A80789 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93C5A241ABCFBA100A80789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93C5A051ABCFBA100A80789 = {
+			isa = PBXGroup;
+			children = (
+				C93C5A3B1ABD09CE00A80789 /* CoreGraphics.framework */,
+				C93C5A101ABCFBA100A80789 /* HandRuler */,
+				C93C5A2A1ABCFBA100A80789 /* HandRulerTests */,
+				C93C5A0F1ABCFBA100A80789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C93C5A0F1ABCFBA100A80789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93C5A0E1ABCFBA100A80789 /* HandRuler.app */,
+				C93C5A271ABCFBA100A80789 /* HandRulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93C5A101ABCFBA100A80789 /* HandRuler */ = {
+			isa = PBXGroup;
+			children = (
+				C93C5A381ABCFFB600A80789 /* DeviceInfo.m */,
+				C93C5A3A1ABCFFD000A80789 /* DeviceInfo.h */,
+				C93C5A151ABCFBA100A80789 /* AppDelegate.h */,
+				C93C5A161ABCFBA100A80789 /* AppDelegate.m */,
+				C93C5A181ABCFBA100A80789 /* ViewController.h */,
+				C93C5A191ABCFBA100A80789 /* ViewController.m */,
+				C93C5A1B1ABCFBA100A80789 /* Main.storyboard */,
+				C93C5A1E1ABCFBA100A80789 /* Images.xcassets */,
+				C93C5A401ABD686F00A80789 /* AppIcon.png */,
+				C93C5A201ABCFBA100A80789 /* LaunchScreen.xib */,
+				C93C5A3D1ABD1BE400A80789 /* UtilityMacro.h */,
+				C93C5A111ABCFBA100A80789 /* Supporting Files */,
+			);
+			path = HandRuler;
+			sourceTree = "<group>";
+		};
+		C93C5A111ABCFBA100A80789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93C5A131ABCFBA100A80789 /* main.m */,
+				C93C5A121ABCFBA100A80789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C93C5A2A1ABCFBA100A80789 /* HandRulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C93C5A2D1ABCFBA100A80789 /* HandRulerTests.m */,
+				C93C5A2B1ABCFBA100A80789 /* Supporting Files */,
+			);
+			path = HandRulerTests;
+			sourceTree = "<group>";
+		};
+		C93C5A2B1ABCFBA100A80789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93C5A2C1ABCFBA100A80789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93C5A0D1ABCFBA100A80789 /* HandRuler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93C5A311ABCFBA100A80789 /* Build configuration list for PBXNativeTarget "HandRuler" */;
+			buildPhases = (
+				C93C5A0A1ABCFBA100A80789 /* Sources */,
+				C93C5A0B1ABCFBA100A80789 /* Frameworks */,
+				C93C5A0C1ABCFBA100A80789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HandRuler;
+			productName = HandRuler;
+			productReference = C93C5A0E1ABCFBA100A80789 /* HandRuler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C93C5A261ABCFBA100A80789 /* HandRulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93C5A341ABCFBA100A80789 /* Build configuration list for PBXNativeTarget "HandRulerTests" */;
+			buildPhases = (
+				C93C5A231ABCFBA100A80789 /* Sources */,
+				C93C5A241ABCFBA100A80789 /* Frameworks */,
+				C93C5A251ABCFBA100A80789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C93C5A291ABCFBA100A80789 /* PBXTargetDependency */,
+			);
+			name = HandRulerTests;
+			productName = HandRulerTests;
+			productReference = C93C5A271ABCFBA100A80789 /* HandRulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93C5A061ABCFBA100A80789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "盛鹏超";
+				TargetAttributes = {
+					C93C5A0D1ABCFBA100A80789 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C93C5A261ABCFBA100A80789 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = C93C5A0D1ABCFBA100A80789;
+					};
+				};
+			};
+			buildConfigurationList = C93C5A091ABCFBA100A80789 /* Build configuration list for PBXProject "HandRuler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C93C5A051ABCFBA100A80789;
+			productRefGroup = C93C5A0F1ABCFBA100A80789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93C5A0D1ABCFBA100A80789 /* HandRuler */,
+				C93C5A261ABCFBA100A80789 /* HandRulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93C5A0C1ABCFBA100A80789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93C5A411ABD686F00A80789 /* AppIcon.png in Resources */,
+				C93C5A1D1ABCFBA100A80789 /* Main.storyboard in Resources */,
+				C93C5A221ABCFBA100A80789 /* LaunchScreen.xib in Resources */,
+				C93C5A1F1ABCFBA100A80789 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93C5A251ABCFBA100A80789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93C5A0A1ABCFBA100A80789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93C5A1A1ABCFBA100A80789 /* ViewController.m in Sources */,
+				C93C5A171ABCFBA100A80789 /* AppDelegate.m in Sources */,
+				C93C5A141ABCFBA100A80789 /* main.m in Sources */,
+				C93C5A391ABCFFB600A80789 /* DeviceInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93C5A231ABCFBA100A80789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93C5A2E1ABCFBA100A80789 /* HandRulerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C93C5A291ABCFBA100A80789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C93C5A0D1ABCFBA100A80789 /* HandRuler */;
+			targetProxy = C93C5A281ABCFBA100A80789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C93C5A1B1ABCFBA100A80789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93C5A1C1ABCFBA100A80789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C93C5A201ABCFBA100A80789 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93C5A211ABCFBA100A80789 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C93C5A2F1ABCFBA100A80789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C93C5A301ABCFBA100A80789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C93C5A321ABCFBA100A80789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandRuler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C93C5A331ABCFBA100A80789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HandRuler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C93C5A351ABCFBA100A80789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandRulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandRuler.app/HandRuler";
+			};
+			name = Debug;
+		};
+		C93C5A361ABCFBA100A80789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HandRulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HandRuler.app/HandRuler";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93C5A091ABCFBA100A80789 /* Build configuration list for PBXProject "HandRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93C5A2F1ABCFBA100A80789 /* Debug */,
+				C93C5A301ABCFBA100A80789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93C5A311ABCFBA100A80789 /* Build configuration list for PBXNativeTarget "HandRuler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93C5A321ABCFBA100A80789 /* Debug */,
+				C93C5A331ABCFBA100A80789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93C5A341ABCFBA100A80789 /* Build configuration list for PBXNativeTarget "HandRulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93C5A351ABCFBA100A80789 /* Debug */,
+				C93C5A361ABCFBA100A80789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93C5A061ABCFBA100A80789 /* Project object */;
+}
